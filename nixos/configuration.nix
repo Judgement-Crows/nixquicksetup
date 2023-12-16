@@ -145,7 +145,7 @@
   };
 
   # user
-  users.users.test123 = {
+  users.users.${whoami} = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
@@ -158,7 +158,7 @@
 
   # network
   networking = {
-    hostName = "judgemental-testing";
+    hostName = "judgemental";
     networkmanager.enable = true;
   };
 
