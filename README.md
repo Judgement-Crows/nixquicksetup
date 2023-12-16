@@ -45,7 +45,7 @@ bind = Super, R,  exec, ags quit; ags -b hypr
 
 opening windows
 ```
-bind = Super, A,       exec, ags -t applauncher
+bind = Super,       exec, ags -t applauncher
 bind = ,XF86PowerOff, exec, ags -t powermenu
 bind = Super, Tab,     exec, ags -t overview
 ```
