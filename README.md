@@ -1,11 +1,5 @@
 # Hyprland
 
-#![2023-11-18_18-17-48](https://github.com/Aylur/dotfiles/assets/104676705/2c256b0f-8103-4f2a-8211-647c9feaa078)
-#![2023-11-18_18-17-10](https://github.com/Aylur/dotfiles/assets/104676705/e8bbd929-9367-4f08-be65-34b03ef52a8e)
-#![2023-11-18_18-18-44](https://github.com/Aylur/dotfiles/assets/104676705/09a5b5a9-262f-4c29-9627-3cf48b6790ae)
-#![2023-11-18_18-28-40](https://github.com/Aylur/dotfiles/assets/104676705/d4ad404d-e5e7-448a-a7a7-a3f0b0858253)
-
-
 # Dependencies
 - [aylurs-gtk-shell](https://github.com/Aylur/ags/wiki/installation)
 - sassc
