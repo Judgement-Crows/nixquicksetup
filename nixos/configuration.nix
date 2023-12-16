@@ -145,7 +145,7 @@
   };
 
   # user
-  users.users.${whoami} = {
+  users.users.${username} = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
