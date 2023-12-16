@@ -22,7 +22,7 @@
 - python-pam
 
 ```bash
-sudo nixos-rebuild boot --flake github:judgemental-crows/nixosquicksetup --impure # impure allows the path /etc/nixos/configuration.nix to be evalutated remotely for install
+sudo nixos-rebuild boot --flake github:judgement-crows/nixosquicksetup --impure # impure allows the path /etc/nixos/configuration.nix to be evalutated remotely for install
 
 sudo reboot --force # there is an issue with services stopping in 23.11 && 24.05pre (as of this edit)
 
@@ -32,7 +32,7 @@ nix build
 cd ~
 nix profile install github:Aylur/ags
 
-git clone https://github.com/rubixcube199/nixos-needed-extras-hyprland
+git clone https://github.com/judgement-crows/nixos-needed-extras-hyprland
 ```
 
 ## Bindings
