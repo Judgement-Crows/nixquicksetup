@@ -4,6 +4,7 @@
     /etc/nixos/hardware-configuration.nix
     ./audio.nix
     ./gnome.nix
+#   ./laptop.nix
     ./hyprland.nix
     ./laptop.nix
     ./locale.nix
@@ -33,6 +34,7 @@
   environment.systemPackages = with pkgs; [
     home-manager
     neovim
+    blueberry
     git
     wget
     kitty
@@ -143,7 +145,7 @@
   };
 
   # user
-  users.users.judge = {
+  users.users.test123 = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
@@ -156,7 +158,7 @@
 
   # network
   networking = {
-    hostName = "nixos";
+    hostName = "judgemental-testing";
     networkmanager.enable = true;
   };
 
