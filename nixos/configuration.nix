@@ -4,7 +4,6 @@
     /etc/nixos/hardware-configuration.nix
     ./audio.nix
     ./gnome.nix
-#   ./laptop.nix
     ./hyprland.nix
     ./laptop.nix
     ./locale.nix
