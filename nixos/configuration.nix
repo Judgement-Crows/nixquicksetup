@@ -494,7 +494,7 @@
   };
 
   # user
-  users.users.judge = {
+  users.users.${username} = {
     isNormalUser = true;
     extraGroups = [
       "networkmanager"
